@@ -82,7 +82,7 @@ class script(object):
 /delete_pass - ᴅᴇʟᴇᴛᴇ ᴀ sᴘᴇᴄɪꜰɪᴄ ᴘᴀssᴡᴏʀᴅ
 </b>"""
 
-    CAPTION = """   """
+    CAPTION = """🎬 <i><a href='{}'>{}</a></i>"""
     
     LOG_TEXT = """<b>#ɴᴇᴡᴜsᴇʀ {}
     
