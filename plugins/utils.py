@@ -25,7 +25,7 @@ async def is_user_joined(bot, message: Message) -> bool:
                         text = (
                             "<i>🔒 Bᴏᴛ ɪs ɴᴏᴛ ᴀɴ ᴀᴅᴍɪɴ ɪɴ ᴛʜɪs ᴄʜᴀɴɴᴇʟ.\n"
                             "Pʟᴇᴀsᴇ ᴄᴏɴᴛᴀᴄᴛ ᴛʜᴇ ᴅᴇᴠᴇʟᴏᴘᴇʀ:</i> "
-                            "<b><a href='https://t.me/AV_SUPPORT_GROUP'>[ ᴄʟɪᴄᴋ ʜᴇʀᴇ ]</a></b>"
+                            "<b><a href='https://t.me/Indian_MV_Admin_Bot'>[ ᴄʟɪᴄᴋ ʜᴇʀᴇ ]</a></b>"
                         ),
                         parse_mode=ParseMode.HTML,
                         disable_web_page_preview=True
@@ -58,7 +58,7 @@ async def is_user_joined(bot, message: Message) -> bool:
     return True
     
 async def is_user_allowed(user_id):
-    """📌 यह फंक्शन चेक करेगा कि यूजर की फाइल लिमिट खत्म हुई है या नहीं"""
+    """📌 This function will check whether the user's file limit has been reached."""
     current_time = time.time()
 
     if ENABLE_LIMIT:
