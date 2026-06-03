@@ -15,18 +15,18 @@ def is_enabled(value, default):
 # 🤖 BOT INFO & CREDENTIALS
 # =========================================================
 SESSION = environ.get('SESSION', 'Webavbot')
-API_ID = int(environ.get('API_ID', ' '))
-API_HASH = environ.get('API_HASH', ' ')
-BOT_TOKEN = environ.get('BOT_TOKEN', ' ')
+API_ID = int(environ.get('API_ID', ''))
+API_HASH = environ.get('API_HASH', '')
+BOT_TOKEN = environ.get('BOT_TOKEN', '')
 
 # Admin Settings
-ADMINS = [int(x) for x in environ.get('ADMINS', ' ').split()]
+ADMINS = [int(x) for x in environ.get('ADMINS', '').split()]
 OWNER_USERNAME = environ.get("OWNER_USERNAME", 'Indian_MV_Admin_Bot')
 
 # =========================================================
 # 🗄️ DATABASE CONNECTION
 # =========================================================
-DB_URL = environ.get('DATABASE_URI', " ")
+DB_URL = environ.get('DATABASE_URI', "")
 DB_NAME = environ.get('DATABASE_NAME', "Cluster0")
 
 # =========================================================
