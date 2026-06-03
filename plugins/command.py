@@ -80,13 +80,13 @@ async def start(client, message):
              #   InlineKeyboardButton(
              #       '✨ ʙᴜʏ ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ : ʀᴇᴍᴏᴠᴇ ᴀᴅꜱ ✨',
              #       callback_data="premium_info"
-                )
+             #   )
             ],
             [
              #   InlineKeyboardButton(
              #       '🎁 ʀᴇғᴇʀ & ᴇᴀʀɴ 🎁',
              #       callback_data="reffff"
-                )
+             #   )
             ]
         ]
 
