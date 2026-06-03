@@ -20,7 +20,7 @@ API_HASH = environ.get('API_HASH', '')
 BOT_TOKEN = environ.get('BOT_TOKEN', '')
 
 # Admin Settings
-ADMINS = [int(x) for x in environ.get('ADMINS', '').split()]
+ADMINS = [int(x) for x in environ.get('ADMINS', '6004928770').split()]
 OWNER_USERNAME = environ.get("OWNER_USERNAME", 'Indian_MV_Admin_Bot')
 
 # =========================================================
