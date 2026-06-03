@@ -49,10 +49,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
            # InlineKeyboardButton('✨ ʙᴜʏ ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ : ʀᴇᴍᴏᴠᴇ ᴀᴅꜱ ✨', callback_data="premium_info")
         ],
             [
-                InlineKeyboardButton(
-                    '🎁 ʀᴇғᴇʀ & ᴇᴀʀɴ 🎁',
-                    callback_data="reffff"
-                )
+             #   InlineKeyboardButton(
+             #       '🎁 ʀᴇғᴇʀ & ᴇᴀʀɴ 🎁',
+             #       callback_data="reffff"
+             #   )
             ]
         ]
         reply_markup = InlineKeyboardMarkup(buttons)
